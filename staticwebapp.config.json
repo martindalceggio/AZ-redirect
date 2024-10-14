@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "route": "/dema",
+        "redirect": "https://demaglos.com",
+        "statusCode": 301
+      }
+    ]
+  }
