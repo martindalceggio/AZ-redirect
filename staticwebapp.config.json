@@ -7,7 +7,7 @@
       },
       {
         "route": "/lasa",
-        "redirect": "https://andromaco.com",
+        "redirect": "https://www.andromaco.com",
         "statusCode": 301
       },
       {
