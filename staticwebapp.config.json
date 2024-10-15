@@ -11,8 +11,8 @@
         "statusCode": 301
       },
       {
-        "route": "/derma",
-        "redirect": "/",
+        "route": "https://test.androma.co",
+        "redirect": "https://www.aveno.com.ar",
         "statusCode": 301
       }
     ]
