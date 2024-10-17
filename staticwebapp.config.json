@@ -8,7 +8,15 @@
     {
       "route": "https://test.androma.co",
       "methods": [
-        "get"
+        "get",
+        "head",
+        "post",
+        "put",
+        "delete",
+        "connect",
+        "options",
+        "trace",
+        "patch"
       ],
       "redirect": "https://www.aveno.com.ar",
       "statusCode": 301
