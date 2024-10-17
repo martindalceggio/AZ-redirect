@@ -1,13 +1,8 @@
 {
   "routes": [
     {
-      "route": "/lasa",
-      "redirect": "https://www.andromaco.com",
-      "statusCode": 301
-    },
-    {
-      "route": "https://test.androma.co",
-      "redirect": "https://www.aveno.com.ar",
+      "route": "/admin",
+      "redirect": "/admin.html",
       "statusCode": 301
     }
   ]

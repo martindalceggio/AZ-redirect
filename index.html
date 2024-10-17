@@ -1,36 +1,27 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirección Automática</title>
-    <!--
+    <title>Andromaco</title>
     <script>
-        // Lista de correspondencias entre sitios y URLs de redirección
-        const redirecciones = {
-            "https://green-mushroom-0cb23570f.5.azurestaticapps.net/derma": "https://dermaglos.com",
-            "www.sitio2.com": "https://www.ejemplo2.com",
-            "www.sitio3.com": "https://www.ejemplo3.com"
-        };
-
-        // Función para redirigir según el sitio actual
-        function redirigir() {
-            const sitioActual = window.location.hostname;
-            const urlRedireccion = redirecciones[sitioActual];
-
-            if (urlRedireccion) {
-                window.location.href = urlRedireccion;
-            } else {
-                console.log("No hay redirección configurada para este sitio.");
-            }
+        window.onload = function() {
+            // traigo el hostname de la url
+            const hostname = window.location.hostname;
+ 
+            // defino las reglas
+            const redirects = {
+                'test.androma.co': 'https://andromaco.com'
+            };
+ 
+            // chequeo si coincide con alguna regla
+            if (redirects[hostname]) {
+                // Redirect to the corresponding URL
+                window.location.href = redirects[hostname];
+            } //else {
+                //si no coincide redirijo al raiz
+               // window.location.href = redirects['www.prisma.cc'];
+           // }
         }
-
-        // Redirigir después de 3 segundos
-        setTimeout(redirigir, 3);
     </script>
--->
 </head>
-<body>
-    <h1>Serás redirigido?...</h1>
-</body>
-</html>
