@@ -7,6 +7,9 @@
     },
     {
       "route": "https://test.androma.co",
+      "methods": [
+        "get"
+      ],
       "redirect": "https://www.aveno.com.ar",
       "statusCode": 301
     }
