@@ -6,7 +6,7 @@
       "statusCode": 301
     },
     {
-      "route": "https://test.androma.co",
+      "route": "https://test.androma.co/tito",
       "redirect": "https://www.aveno.com.ar",
       "statusCode": 301
     }
